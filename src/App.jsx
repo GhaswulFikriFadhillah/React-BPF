@@ -2,18 +2,6 @@ import "./assets/tailwind.css";
 import { Routes, Route } from "react-router-dom";
 import React from "react";
 import { Suspense } from "react";
-//import MainLayout from "./layouts/mainlayout";
-//import AuthLayout from "./layouts/AuthLayout";
-//import Dashboard from "./pages/Dashboard";
-//import Orders from "./pages/Orders";
-//import Customers from "./pages/Customers";
-//import NotFound from "./pages/NotFound";
-//import NotFound401 from "./pages/NotFound401";
-//import NotFound400 from "./pages/NotFound400";
-//import NotFound403 from "./pages/NotFound403";
-//import Login from "./pages/Auth/Login";
-//import Register from "./pages/Auth/Register";
-//import Forgot from "./pages/Auth/Forgot";
 
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
